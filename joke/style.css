@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+    box-sizing: border-box;
+}
+a{
+    color: #111;
+    text-decoration: none;
+}
+.btn{
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 0.99rem;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    background-color: blue;
+}
+.btn:hover{
+    cursor: pointer;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: brown;
+}
+.container{
+    width: 400px;
+    padding: 30px 40px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+h1 {
+    font-size: 1.1rem;
+    color: #888;
+    margin-bottom: 20px;
+    text-decoration: underline;
+  }
+.jokes{
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    font-family: monospace;
+}
+.newJoke{
+    background-color: red;
+}
+.tweet-btn{
+    background-color: #00ACEE;
+}

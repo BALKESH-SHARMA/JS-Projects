@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body,html{
+    display: grid;
+    min-height: 100%;
+    place-items: center;
+}
+.card{
+    height: 400px;
+    width: 700px;
+    box-shadow: 10px 10px 15px rgb(192, 182, 182),-10px -10px 15px white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+.name{
+    font-size: 3rem;
+}
+#counter{
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+.counterbtn{
+    font-size: 1.3rem;
+    padding: 0.7rem 1.2rem;
+    margin: 0 2rem;
+    outline: none;
+    cursor: pointer;
+}
